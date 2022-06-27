@@ -1,11 +1,10 @@
 const UserModel=require("../models/Usermodel");
-//const BookModel=require("./model.Book");
 const mongoose=require('mongoose');
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const fs=require("fs");
 
-//const nodemailer = require("nodemailer");
+
 
 const {
   isValid,
